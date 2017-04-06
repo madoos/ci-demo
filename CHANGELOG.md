@@ -1,5 +1,18 @@
 # Change Log
 
+## [v1.0.1](https://github.com/madoos/ci-demo/tree/v1.0.1) (2017-04-06)
+[Full Changelog](https://github.com/madoos/ci-demo/compare/v1.0.0...v1.0.1)
+
+**Closed issues:**
+
+- feat 1 [\#4](https://github.com/madoos/ci-demo/issues/4)
+
+**Merged pull requests:**
+
+- new feat closes \#4 [\#5](https://github.com/madoos/ci-demo/pull/5) ([madoos](https://github.com/madoos))
+- Updated to version 1.0.0 [\#3](https://github.com/madoos/ci-demo/pull/3) ([madoos](https://github.com/madoos))
+- Updated to version 1.0.0 [\#2](https://github.com/madoos/ci-demo/pull/2) ([madoos](https://github.com/madoos))
+
 ## [v1.0.0](https://github.com/madoos/ci-demo/tree/v1.0.0) (2017-04-06)
 **Closed issues:**
 
