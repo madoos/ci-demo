@@ -4,7 +4,7 @@ var express = require('express')
 var app = express()
 
 app.get('/', function (req, res) {
-  res.send('Hello CI World + CI test!')
+  res.send('Hello CI World + CI test! feat1')
 })
 
 app.listen(3000, function () {
