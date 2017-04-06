@@ -1,9 +1,10 @@
 {
-  "name":  "madoos-ci-demo",
+  "name": "madoos-ci-demo",
   "version": "0.0.1",
   "description": "CI demo with docker pipelines",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "npm run lint && npm run cover:unit",
     "test:unit": "./bin/test/unit",
     "test:int": "./bin/test/int",
@@ -17,11 +18,10 @@
     "type": "git",
     "url": "git+https://github.com/madoos/ci-demo.git"
   },
-
   "keywords": [
     "lib"
   ],
-   "author": {
+  "author": {
     "name": "madoos",
     "email": "maurice.ronet.dominguez@gmail.com",
     "url": "https://github.com/madoos/"
@@ -38,11 +38,13 @@
     "standard": "^8.6.0",
     "http-server": "^0.9.0"
   },
-
-  "standard":  {
+  "standard": {
     "env": {
       "node": true,
       "mocha": true
     }
+  },
+  "dependencies": {
+    "express": "^4.15.2"
   }
 }
