@@ -2,9 +2,9 @@
 
 node {
 
-    def GITHUB_USER = "CHANGE"
-    def GITHUB_REPO = "CHANGE"
-    def DOCKER_IMAGE_BASE_NAME = "CHANGE/CHANGE"
+    def GITHUB_USER = "madoos"
+    def GITHUB_REPO = "ci-demo"
+    def DOCKER_IMAGE_BASE_NAME = "madoos/ci"
     def GITHUB_BRANCH = env.BRANCH_NAME
     def GITHUB_TOKEN =  env.GITHUB_TOKEN
     def NPM_TOKEN = env.NPM_TOKEN
