@@ -1,0 +1,3 @@
+# !bin/bash
+
+node /usr/local/lib/node_modules/bin/yo
